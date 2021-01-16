@@ -1,0 +1,107 @@
+{
+	"name": "Discord Notifications",
+	"version": "1.1.2",
+	"author": "Aleksi Postari",
+	"url": "https://github.com/kulttuuri/discord_mediawiki",
+	"descriptionmsg": "discordnotifications-desc",
+	"type": "other",
+	"AutoloadClasses": {
+		"DiscordNotificationsCore": "DiscordNotificationsCore.php"
+	},
+	"MessagesDirs": {
+		"DiscordNotifications": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"PageContentSaveComplete": [
+			[
+				"DiscordNotificationsCore::onDiscordArticleSaved"
+			]
+		],
+		"PageContentInsertComplete": [
+			[
+				"DiscordNotificationsCore::onDiscordArticleInserted"
+			]
+		],
+		"ArticleDeleteComplete": [
+			[
+				"DiscordNotificationsCore::onDiscordArticleDeleted"
+			]
+		],
+		"TitleMoveComplete": [
+			[
+				"DiscordNotificationsCore::onDiscordArticleMoved"
+			]
+		],
+		"AddNewAccount": [
+			[
+				"DiscordNotificationsCore::onDiscordNewUserAccount"
+			]
+		],
+		"BlockIpComplete": [
+			[
+				"DiscordNotificationsCore::onDiscordUserBlocked"
+			]
+		],
+		"UploadComplete": [
+			[
+				"DiscordNotificationsCore::onDiscordFileUploaded"
+			]
+		],
+		"ArticleProtectComplete": [
+			[
+				"DiscordNotificationsCore::onDiscordArticleProtected"
+			]
+		],
+		"UserGroupsChanged": [
+			[
+				"DiscordNotificationsCore::onDiscordUserGroupsChanged"
+			]
+		],
+		"APIFlowAfterExecute": [
+			[
+				"DiscordNotificationsCore::onDiscordApiFlowAfterExecute"
+			]
+		]
+	},
+	"config": {
+		"DiscordIncomingWebhookUrl": "",
+		"wgDiscordAdditionalIncomingWebhookUrls": [],
+		"DiscordFromName": "",
+		"DiscordSendMethod": "curl",
+		"DiscordIncludePageUrls": true,
+		"DiscordIncludeUserUrls": true,
+		"DiscordIgnoreMinorEdits": false,
+		"ExcludedPermission": "",
+		"DiscordExcludeNotificationsFrom": [],
+		"WikiUrl": "",
+		"WikiUrlEnding": "index.php?title=",
+		"WikiUrlEndingUserRights": "Special%3AUserRights&user=",
+		"WikiUrlEndingBlockUser": "Special:Block/",
+		"WikiUrlEndingUserPage": "User:",
+		"WikiUrlEndingUserTalkPage": "User_talk:",
+		"WikiUrlEndingUserContributions": "Special:Contributions/",
+		"WikiUrlEndingEditArticle": "action=edit",
+		"WikiUrlEndingDeleteArticle": "action=delete",
+		"WikiUrlEndingHistory": "action=history",
+		"WikiUrlEndingDiff": "diff=prev&oldid=",
+		"DiscordNotificationNewUser": true,
+		"DiscordNotificationBlockedUser": true,
+		"DiscordNotificationAddedArticle": true,
+		"DiscordNotificationRemovedArticle": true,
+		"DiscordNotificationMovedArticle": true,
+		"DiscordNotificationEditedArticle": true,
+		"DiscordNotificationFileUpload": true,
+		"DiscordNotificationProtectedArticle": true,
+		"DiscordNotificationShowSuppressed": true,
+		"DiscordNotificationUserGroupsChanged": true,
+		"DiscordNotificationFlow": true,
+		"DiscordIncludeDiffSize": true,
+		"DiscordShowNewUserEmail": true,
+		"DiscordShowNewUserFullName": true,
+		"DiscordShowNewUserIP": true,
+		"DiscordAvatarUrl": ""
+	},
+	"manifest_version": 1
+}

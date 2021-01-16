@@ -1,0 +1,1111 @@
+<?xml version="1.0"?>
+<Effects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EffectInfo Type="SkillATK_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="AddDamage" ReadFrom="reserved10, reserved9" />
+      <ParameterInfo ParameterName="AddEffect" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="AddEffectCondition" ReadFrom="reserved16" />
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+      <ParameterInfo ParameterName="MinDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+	  <ParameterInfo ParameterName="FixDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="MPAttack_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="casestatup">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain2, remain1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SpellATK">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved9, reserved8" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="CheckTime" ReadFrom="checktime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SpellATK_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="AddDamage" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="AddEffect" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="AddEffectCondition" ReadFrom="reserved16" />
+      <ParameterInfo ParameterName="FixDamage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="MinDamage" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Heal">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="CheckTimeHeal" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="CheckTime" ReadFrom="checktime" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="MPHeal">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="CheckTimeHeal" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="CheckTime" ReadFrom="checktime" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Heal_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="MPHeal_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Utility">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+    <EffectInfo Type="MpHeal_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="StatBoost">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="FixValue" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="fixValue" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="RateValue" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="StatName" ReadFrom="reserved13" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="StatUp">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="StatName" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="StatName2" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="StatName3" ReadFrom="reserved18" />
+      <ParameterInfo ParameterName="StatName4" ReadFrom="reserved22" />
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="Value2" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="Value3" ReadFrom="reserved16, reserved15" />
+      <ParameterInfo ParameterName="Value4" ReadFrom="reserved20, reserved19" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+    <EffectInfo Type="Statup">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Statname" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="Statname2" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="Statname3" ReadFrom="reserved18" />
+      <ParameterInfo ParameterName="Statname4" ReadFrom="reserved22" />
+	  <ParameterInfo ParameterName="StatName" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="StatName2" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="StatName3" ReadFrom="reserved18" />
+      <ParameterInfo ParameterName="StatName4" ReadFrom="reserved22" />
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="Value2" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="Value3" ReadFrom="reserved16, reserved15" />
+      <ParameterInfo ParameterName="Value4" ReadFrom="reserved20, reserved19" />
+	  <ParameterInfo ParameterName="value" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="value2" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="value3" ReadFrom="reserved16, reserved15" />
+      <ParameterInfo ParameterName="value4" ReadFrom="reserved20, reserved19" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="StatDown">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="StatName" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="StatName2" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="StatName3" ReadFrom="reserved18" />
+      <ParameterInfo ParameterName="StatName4" ReadFrom="reserved22" />
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="Value2" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="Value3" ReadFrom="reserved16, reserved15" />
+      <ParameterInfo ParameterName="Value4" ReadFrom="reserved20, reserved19" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Statdown">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="StatName" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="StatName2" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="StatName3" ReadFrom="reserved18" />
+      <ParameterInfo ParameterName="StatName4" ReadFrom="reserved22" />
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="Value2" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="Value3" ReadFrom="reserved16, reserved15" />
+      <ParameterInfo ParameterName="Value4" ReadFrom="reserved20, reserved19" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Amr_Mastery">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Category" ReadFrom="reserved5" />
+      <ParameterInfo ParameterName="DodgeFix" ReadFrom="reserved13, reserved12" />
+      <ParameterInfo ParameterName="DodgeRate" ReadFrom="reserved11, reserved10" />
+      <ParameterInfo ParameterName="MagDefendFix" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="MagDefendRate" ReadFrom="reserved7, reserved6" />
+      <ParameterInfo ParameterName="PhyDefendFix" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="PhyDefendRate" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Protect">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved_cond1" />
+      <ParameterInfo ParameterName="Range" ReadFrom="reserved5" />
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved9, reserved8" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="AlwaysHit">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Level" ReadFrom="reserved13" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SpellAbsorb">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="SpellBurst">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="AlwaysDodge">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Count" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="Level" ReadFrom="reserved13" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="AlwaysParry">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Count" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="Level" ReadFrom="reserved13" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="AlwaysBlock">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Count" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="Level" ReadFrom="reserved13" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ConvertHeal">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved_cond1" />
+      <ParameterInfo ParameterName="ConditionProb" ReadFrom="reserved_cond1_prob2, reserved_cond1_prob1" />
+      <ParameterInfo ParameterName="CoverValue" ReadFrom="reserved8, reserved7" />
+      <ParameterInfo ParameterName="CoverStat" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="HealValue" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Reflector">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved_cond1" />
+      <ParameterInfo ParameterName="ConditionProb" ReadFrom="reserved_cond1_prob2, reserved_cond1_prob1" />
+      <ParameterInfo ParameterName="FixedDamage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="MaxRange" ReadFrom="reserved5" />
+      <ParameterInfo ParameterName="MinRange" ReadFrom="reserved4" />
+      <ParameterInfo ParameterName="RateDamage" ReadFrom="reserved8, reserved7" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="CaseHeal">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved10" />
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="HealStat" ReadFrom="reserved13" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Stun">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="stun">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SkillATKDrain_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="HealProbability" ReadFrom="reserved10, reserved9" />
+      <ParameterInfo ParameterName="HPHeal" ReadFrom="reserved15, reserved14" />
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+      <ParameterInfo ParameterName="MinDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+      <ParameterInfo ParameterName="MPHeal" ReadFrom="reserved17, reserved16" />
+	  <ParameterInfo ParameterName="FixDamage" ReadFrom="reserved4, reserved3" />
+	  <ParameterInfo ParameterName="exclusiveAddDamage" ReadFrom="reserved21, reserved20" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SpellATKDrain_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="AddDamage" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="FixDamage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="HPHeal" ReadFrom="reserved15, reserved14" />
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="MinDamage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="MPHeal" ReadFrom="reserved17, reserved16" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Poison">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved9, reserved8" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+	  <ParameterInfo ParameterName="CheckTime" ReadFrom="checktime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Bleed">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved9, reserved8" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Paralyze">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Sleep">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="sleep">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="root">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Root">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Hide">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Speed" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Search">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Petrification">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Blind">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Shield">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved_cond1" />
+      <ParameterInfo ParameterName="ConditionProb" ReadFrom="reserved_cond1_prob2, reserved_cond1_prob1" />
+      <ParameterInfo ParameterName="CoverValue" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="ShieldValue" ReadFrom="reserved8, reserved7" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Charm">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Disease">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Silence">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Fear">
+	<ReservedParameters>
+		<ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+		<ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Curse">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Confuse">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Summon">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Wpn_Dual">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="AttackSpeed" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Enslave">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Activate_Enslave">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="ReturnHome">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="SummonHoming">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="UnitNumber" ReadFrom="reserved5" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Polymorph">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="ShapeChange">
+    <ReservedParameters>
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="RideRobot">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Dispel">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Provoker">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved_cond1" />
+      <ParameterInfo ParameterName="ConditionProb" ReadFrom="reserved_cond1_prob2, reserved_cond1_prob1" />
+      <ParameterInfo ParameterName="OtherSkill" ReadFrom="reserved17, reserved15, reserved16" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="provoker">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved_cond1" />
+      <ParameterInfo ParameterName="ConditionProb" ReadFrom="reserved_cond1_prob2, reserved_cond1_prob1" />
+      <ParameterInfo ParameterName="OtherSkill" ReadFrom="reserved17, reserved15, reserved16" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="WeaponStatBoost">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="FixValue" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="RateValue" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="StatName" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="WeaponCategory" ReadFrom="reserved5" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Stumble">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Stagger">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="OpenAerial">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="CloseAerial">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="FlyOff">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="SkillLauncher">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="OtherSkill" ReadFrom="reserved1, reserved2, reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DPTransfer">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="DeathBlow">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="AddEffect" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="AddEffectCondition" ReadFrom="reserved16" />
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Fall">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="_CurFlyTime">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="IncreaseValue" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="_CurFlyCoolTime">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="DecreaseValue" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Resurrect">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Rebirth">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="CurrentHPMP" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Snare">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="snare">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Slow">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Spin">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Aura">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Range" ReadFrom="reserved3" />
+      <ParameterInfo ParameterName="Target" ReadFrom="reserved5" />
+      <ParameterInfo ParameterName="TargetRelation" ReadFrom="reserved6" />
+      <ParameterInfo ParameterName="OtherSkill" ReadFrom="reserved1, reserved7, reserved8" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SummonTrap">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="SummonTime" ReadFrom="reserved4, reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SummonSkillArea">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="SummonTime" ReadFrom="reserved4, reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SummonTotem">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="SummonTime" ReadFrom="reserved4, reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SummonShadow">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="ExtendAuraRange">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Range" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SubTypeExtendDuration">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusRate" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="BonusValue" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="ExtendTime" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="ResultValue" ReadFrom="reserved6, reserved5" />
+      <ParameterInfo ParameterName="Type" ReadFrom="reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SubTypeBoostResist">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusRate" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="BonusValue" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="ResultValue" ReadFrom="reserved6, reserved5" />
+      <ParameterInfo ParameterName="Type" ReadFrom="reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="OneTimeTypeBoostSkillLevel">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusLevel" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="Count" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="Type" ReadFrom="reserved5" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="BoostSkillCost">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusRate" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="BonusValue" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="ResultValue" ReadFrom="reserved6, reserved5" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="CondSkillLauncher">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved4" />
+      <ParameterInfo ParameterName="ConditionStat" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="OtherSkill" ReadFrom="reserved3, reserved1, reserved2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="BoostHealEffect">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusValue" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="OneTimeBoostHealEffect">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusValue" ReadFrom="cond_preeffect_prob1, cond_preeffect_prob2" />
+      <ParameterInfo ParameterName="Count" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ShieldMastery">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="ReduceDamage" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="RandomMoveLoc">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Distance" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="BoostHate">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusValue" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ChangeHateOnAttacked">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusValue" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ShieldMasteryBoost">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="ReduceDamage" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DispelBuff">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DispelDebuff">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DispelDebuffPhysical">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DispelDebuffMental">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ProcHeal_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ProcMpHeal_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ProcATK_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="HostileUp">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusValue" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Dummy">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Bind">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="bind">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DelayedSpellATK_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="DelayedTime" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="FixDamage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="MinDamage" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DashATK">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+      <ParameterInfo ParameterName="MinDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+	  <ParameterInfo ParameterName="FixDamage" ReadFrom="reserved4, reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="BackDashATK">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+      <ParameterInfo ParameterName="MinDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+	  <ParameterInfo ParameterName="FixDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="MoveBehindATK">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+      <ParameterInfo ParameterName="MinDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+	  <ParameterInfo ParameterName="FixDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="OutOfSight">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="SightRange" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SummonGroupGate">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="SummonTime" ReadFrom="reserved4, reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="PetOrderUseUltraSkill">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="BoostDropRate">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusDropRate" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ProcATK_Instant_Ratio">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="WeaponStatUp">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="StatName" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="StatName2" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="StatName3" ReadFrom="reserved18" />
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="Value2" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="Value3" ReadFrom="reserved16, reserved15" />
+      <ParameterInfo ParameterName="WeaponCategory" ReadFrom="reserved5" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="BoostSkillToggleCost">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="CostBonus" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="BoostSkillCastingTime">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="CastingBonus" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="RemainMP" ReadFrom="reserved6, reserved5" />
+      <ParameterInfo ParameterName="SubType" ReadFrom="reserved3" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="AlwaysResist">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Count" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="Level" ReadFrom="reserved13" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="AlwaysNoResist">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Count" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="Level" ReadFrom="reserved13" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Sprint">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Value" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="MagicCounterATK">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved5" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DispelBuffCounterATK">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="AddDamage" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="DispelCount" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DispelAllCounterATK">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="DispelCount" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="Damage" ReadFrom="reserved9, reserved8" />
+	  <ParameterInfo ParameterName="AddDamage" ReadFrom="reserved9, reserved8" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="CarveSignet">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="ChangeSignetGrade" ReadFrom="reserved10" />
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+      <ParameterInfo ParameterName="MinDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+      <ParameterInfo ParameterName="SignetGrade" ReadFrom="reserved14" />
+	  <ParameterInfo ParameterName="FixDamage" ReadFrom="reserved4, reserved3, reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SignetBurst">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="AddEffect" ReadFrom="reserved13" />
+      <ParameterInfo ParameterName="SignetGrade" ReadFrom="reserved8" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Signet">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="SignetGrade" ReadFrom="reserved16" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SwitchHpMp_Instant">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="HealCastorOnAttacked">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="EffectArea" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="EffectTarget" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="HealPoint" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="OneTimeBoostSkillAttack">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="AttackCount" ReadFrom="reserved7, reserved6" />
+      <ParameterInfo ParameterName="AttackType" ReadFrom="reserved5" />
+      <ParameterInfo ParameterName="BonusPoint" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="BonusRate" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DeBoostHealAmount">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="DeboostPenalty" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="DeBoostPenalty" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain2, remain1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DeboostHealAmount">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="DeboostPenalty" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="DeBoostPenalty" ReadFrom="reserved2, reserved1" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain2, remain1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="OnetimeGetBoostedDamage">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusRate" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="NoFly">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Deform">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain1, remain2" />
+	  <ParameterInfo ParameterName="RandomTime" ReadFrom="randomtime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ResurrectPositional">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Pulled">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="SwitchHostile">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="SummonServant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="AttackCount" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="SummonCount" ReadFrom="reserved5" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="OneTimeBoostSkillCritical">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BoostCount" ReadFrom="reserved7, reserved6" />
+      <ParameterInfo ParameterName="CriticalBonus1" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="CriticalBonus2" ReadFrom="reserved4, reserved3" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain2, remain1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="BoostSpellAttackEffect">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="EffectBonus1" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="EffectBonus2" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="RemainTime" ReadFrom="remain2, remain1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SummonBindingGroupGate">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="SummonTime" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="HealCastorOnTargetDead">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="EffectArea" ReadFrom="reserved7" />
+      <ParameterInfo ParameterName="EffectTarget" ReadFrom="reserved14" />
+      <ParameterInfo ParameterName="HealPoint" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SpellATKDrain">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="EffectArea" ReadFrom="reserved7" />
+      <ParameterInfo ParameterName="HPHeal" ReadFrom="reserved15, reserved14" />
+      <ParameterInfo ParameterName="MPHeal" ReadFrom="reserved17, reserved16" />
+	  <ParameterInfo ParameterName="CheckTime" ReadFrom="checktime" />
+	  <ParameterInfo ParameterName="Checktime" ReadFrom="checktime" />
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain2, remain1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SkillATKDrain">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved9, reserved8" />
+      <ParameterInfo ParameterName="EffectArea" ReadFrom="reserved7" />
+      <ParameterInfo ParameterName="HPHeal" ReadFrom="reserved15, reserved14" />
+      <ParameterInfo ParameterName="MPHeal" ReadFrom="reserved17, reserved16" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="FpHeal_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="FpHeal">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="CheckTimeHeal" ReadFrom="reserved9, reserved8" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ProcFpHeal_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="FpATK_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="FpATK">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved9, reserved8" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DelayedFPATK_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="DelayedTime" ReadFrom="reserved9, reserved8" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ReturnPoint">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="PetOrderUnSummon">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="DPHeal_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Heal" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DPHeal">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="CheckTimeHeal" ReadFrom="reserved9, reserved8" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="ProcDPHeal_Instant">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="XPBoost">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusRate" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="DRBoost">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Cannon">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="InvulnerableWing">
+    <ReservedParameters>
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain2, remain1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="Simple_Root">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Interrupt_Instant">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Recall_Instant">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="DispelNpcBuff">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="DispelNpcDebuff">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="DispelNpcDebuffPhysical">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="DispelNpcDebuffMental">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Sanctuary">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="ResurrectBase">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="DelayedSkill">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="OtherSkill" ReadFrom="reserved1, reserved2, reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="IntervalSkill">
+    <ReservedParameters>
+	  <ParameterInfo ParameterName="RemainTime" ReadFrom="remain2, remain1" />
+	  <ParameterInfo ParameterName="checktime" ReadFrom="checktime" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="NoReduceSpellATK_Instant">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Damage" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="MaxDamage" ReadFrom="reserved3" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SummonChannellingArea">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="SummonTime" ReadFrom="remain2, remain1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="BuffStun">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="BuffSleep">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="BuffSilence">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="BuffBind">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Evade">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="AbsoluteSnare">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="AbsoluteSlow">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="TargetTeleport">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="NoResurrectPenalty">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="NoDeathPenalty">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="HiPass">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="SummonHouseGate">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="ProcVPHeal_Instant">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="SummonFunctionalNPC">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="AbsoluteStatToPCBuff">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="AbsoluteStatToPCDebuff">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="APBoost">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="GatherPointBoost">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="ExtractGatherPointBoost">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="CombinePointBoost">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="MenuisierCombinePointBoost">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="SkillCooltimeReset">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="Escape">
+    <ReservedParameters />
+  </EffectInfo>
+  <EffectInfo Type="MpShield">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved_cond1" />
+      <ParameterInfo ParameterName="ConditionProb" ReadFrom="reserved_cond1_prob2, reserved_cond1_prob1" />
+      <ParameterInfo ParameterName="CoverValue" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="LoseMp" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="ShieldValue" ReadFrom="reserved8, reserved7" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="MPShield">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="Condition" ReadFrom="reserved_cond1" />
+      <ParameterInfo ParameterName="ConditionProb" ReadFrom="reserved_cond1_prob2, reserved_cond1_prob1" />
+      <ParameterInfo ParameterName="CoverValue" ReadFrom="reserved2, reserved1" />
+      <ParameterInfo ParameterName="LoseMp" ReadFrom="reserved4, reserved3" />
+	  <ParameterInfo ParameterName="LoseMP" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="ShieldValue" ReadFrom="reserved8, reserved7" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="OneTimeBoostMpHealEffect">
+    <ReservedParameters>
+      <ParameterInfo ParameterName="BonusValue" ReadFrom="reserved4, reserved3" />
+      <ParameterInfo ParameterName="Count" ReadFrom="reserved2, reserved1" />
+    </ReservedParameters>
+  </EffectInfo>
+  <EffectInfo Type="SupportEvent">
+    <ReservedParameters />
+  </EffectInfo>
+</Effects>

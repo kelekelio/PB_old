@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/powerbook/vendor/oojs/oojs-ui" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/cdb" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/purtle" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/php-session-serializer" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/html-formatter" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/nmred/kafka-php" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/zordius/lightncandy" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/wrappedstring" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/base-convert" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/relpath" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/testing-access-wrapper" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/css-sanitizer" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/liuggio/statsd-php-client" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/ip-set" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/textcat" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/avro" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/running-stat" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/wait-condition-loop" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/assert" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/remex-html" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/oyejorge/less.php" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/timestamp" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/utfnormal" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/stil/gd-text" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/cssjanus/cssjanus" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/mediawiki/at-ease" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/james-heinrich/getid3" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/ruflin/elastica" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/composer" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/pear/mail_mime" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/pear/mail_mime-decode" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/pear/console_getopt" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/pear/pear_exception" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/pear/mail" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/pear/net_smtp" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/pear/net_socket" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/pear/pear-core-minimal" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/scoped-callback" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/wikimedia/cldr-plural-rule-parser" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/powerbook/vendor/mustangostang/spyc" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/powerbook/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

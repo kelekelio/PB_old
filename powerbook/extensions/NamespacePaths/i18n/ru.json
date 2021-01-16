@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ignatus"
+		]
+	},
+	"namespacepaths-desc": "Позволяет настраивать пути к статьям для сопоставления пространствам имен вики. Пример: странице Help:Page сопоставляется /help/Page, а не/wiki/Help:Page."
+}

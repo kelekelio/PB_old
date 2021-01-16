@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings><string>
+<name>STR_HP</name>
+<en>HP</en>
+<de>TP</de>
+<es>PV</es>
+<fr>PV</fr>
+<it>PF</it>
+<ko>생명력</ko>
+<pl>PŻ</pl>
+<us>HP</us>
+</string><string>
+<name>STR_MP</name>
+<en>MP</en>
+<de>MP</de>
+<es>PM</es>
+<fr>PM</fr>
+<it>PM</it>
+<ko>정신력</ko>
+<pl>PM</pl>
+<us>MP</us>
+</string><string>
+<name>STR_ATTACK</name>
+<en>Attack</en>
+<de>Angriff</de>
+<es>Ataque</es>
+<fr>Attaque</fr>
+<it>Attacca</it>
+<ko>무기 공격력</ko>
+<pl>Atak</pl>
+<us>Attack</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_MAXFLYTIME</name>
+<en>Flight Time</en>
+<de>Flugzeit</de>
+<es>Tiempo de vuelo</es>
+<fr>Temps de vol</fr>
+<it>Tempo di volo</it>
+<ko>최대 비행시간</ko>
+<pl>Czas lotu</pl>
+<us>Flight Time</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_HEAL_BOOST</name>
+<en>Healing Boost</en>
+<de>Heilstärkung</de>
+<es>Potenciación curativa</es>
+<fr>Amélioration des soins</fr>
+<it>Abilità curativa</it>
+<ko>치유량 증가</ko>
+<pl>Wzmocnienie mocy czarów</pl>
+<us>Healing Boost</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_HITACCURACY</name>
+<en>Accuracy</en>
+<de>Präzision</de>
+<es>Precisión</es>
+<fr>Précision</fr>
+<it>Precisione</it>
+<ko>명중</ko>
+<pl>Celność</pl>
+<us>Accuracy</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PHYSICAL_CRITICAL_REDUCE_RATE</name>
+<en>Strike Resist</en>
+<de>Krit. Trefferresistenz</de>
+<es>Resistencia a golpe crítico</es>
+<fr>Résistance aux crit. physiques</fr>
+<it>Resistenza ai colpi critici</it>
+<ko>물리 치명타 저항</ko>
+<pl>Odporność na ciosy kryt.</pl>
+<us>Strike Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_MAGICAL_CRITICAL_REDUCE_RATE</name>
+<en>Spell Resist</en>
+<de>Mag. krit. Trefferresistenz</de>
+<es>Resistencia a golpe crítico mágico</es>
+<fr>Résistance aux crit. magiques</fr>
+<it>Resistenza magica ai colpi critici</it>
+<ko>마법 치명타 저항</ko>
+<pl>Odporność na mag. ciosy kryt.</pl>
+<us>Spell Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_CONCENTRATION</name>
+<en>Concentration</en>
+<de>Konzentration</de>
+<es>Concentración</es>
+<fr>Concentration</fr>
+<it>Concentrazione</it>
+<ko>집중</ko>
+<pl>Koncentracja</pl>
+<us>Concentration</us>
+</string><string>
+<name>STR_DODGE</name>
+<en>Evasion</en>
+<de>Ausweichen</de>
+<es>Evasión</es>
+<fr>Esquive</fr>
+<it>Schiva</it>
+<ko>회피</ko>
+<pl>Uniki</pl>
+<us>Evasion</us>
+</string><string>
+<name>STR_PARRY</name>
+<en>Parry</en>
+<de>Parieren</de>
+<es>Parada</es>
+<fr>Parade</fr>
+<it>Para</it>
+<ko>무기 방어</ko>
+<pl>Parowanie</pl>
+<us>Parry</us>
+</string><string>
+<name>STR_BLOCK</name>
+<en>Block</en>
+<de>Blocken</de>
+<es>Bloqueo</es>
+<fr>Blocage</fr>
+<it>Blocca</it>
+<ko>방패 방어</ko>
+<pl>Blok</pl>
+<us>Block</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_MAGATTACK</name>
+<en>Magic Attack</en>
+<de>Magischer Angriff</de>
+<es>Ataque mágico</es>
+<fr>Attaque magique</fr>
+<it>Attacco magico</it>
+<ko>무기 공격력</ko>
+<pl>Atak magiczny</pl>
+<us>Magical Attack</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARSILENCE</name>
+<en>Silence Resistance</en>
+<de>Schweigewiderstand</de>
+<es>Resistencia al silencio</es>
+<fr>Résistance au silence</fr>
+<it>Resistenza al silenzio</it>
+<ko>침묵 저항</ko>
+<pl>Odporność na uciszenie</pl>
+<us>Silence Resistance</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_SILENCE_ARP</name>
+<en>Silence Resistance Penetration</en>
+<de>Schweigewiderstand-Durchdringung</de>
+<es>Penetración de resistencia al silencio</es>
+<fr>Pénétration des résistances au silence</fr>
+<it>Penetrazione della resistenza al silenzio</it>
+<ko>침묵 저항 돌파</ko>
+<pl>Przebicie odporności na uciszenie</pl>
+<us>Silence Resistance Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARPARALYZE</name>
+<en>Paralysis Resistance</en>
+<de>Lähmungswiderstand</de>
+<es>Resistencia a la parálisis</es>
+<fr>Résistance à la paralysie</fr>
+<it>Resistenza alla paralisi</it>
+<ko>마비 저항</ko>
+<pl>Odporność na obezwładnienie</pl>
+<us>Paralysis Resistance</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PARALYZE_ARP</name>
+<en>Paralysis Resistance Penetration</en>
+<de>Lähmungswiderstand-Durchdringung</de>
+<es>Penetración de resistencia a la parálisis</es>
+<fr>Pénétration des résistances à la paralysie</fr>
+<it>Penetrazione della resistenza alla paralisi</it>
+<ko>마비 저항 돌파</ko>
+<pl>Przebicie odporności na obezwładnienie</pl>
+<us>Paralysis Resistance Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PHYSICAL_CRITICAL_DAMAGE_REDUCE</name>
+<en>Strike Fortitude</en>
+<de>Krit. Trefferverteidigung</de>
+<es>Defensa ante golpe crítico</es>
+<fr>Défense contre les crit. physiques</fr>
+<it>Difesa dai colpi critici</it>
+<ko>물리 치명타 방어</ko>
+<pl>Obrona przed ciosami kryt.</pl>
+<us>Strike Fortitude</us>
+</string><string>
+<name>STR_DEFEND_PHYSICAL</name>
+<en>Physical Def</en>
+<de>Phys. Abwehr</de>
+<es>Defensa física</es>
+<fr>Déf. Physique</fr>
+<it>Resistenza fisica</it>
+<ko>물리 피해량 감소</ko>
+<pl>Obrona fiz.</pl>
+<us>Physical Def</us>
+</string><string>
+<name>STR_MAGIC_DEFENSE</name>
+<en>Magic Resist</en>
+<de>Magiewiderstand</de>
+<es>Defensa mágica</es>
+<fr>Rés. magique</fr>
+<it>Resistenza magica</it>
+<ko>마법 저항</ko>
+<pl>Obrona mag.</pl>
+<us>Magic Resist</us>
+</string><string>
+<name>STR_MAGICAL_SKILL_BOOST</name>
+<en>Magic Boost</en>
+<de>Magieverstärkung</de>
+<es>Potenciación mágica</es>
+<fr>Puiss. magique</fr>
+<it>Potenziamento magia</it>
+<ko>마법 증폭력</ko>
+<pl>Wzmocnienie magii</pl>
+<us>Magic Boost</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_MAGICAL_SKILL_BOOST_RESIST</name>
+<en>Magic Suppression</en>
+<de>Magieausgleich</de>
+<es>Compensación de magia</es>
+<fr>Suppression magique</fr>
+<it>Bilanciamento magico</it>
+<ko>마법 상쇄</ko>
+<pl>Zrównoważenie magii</pl>
+<us>Magic Suppression</us>
+</string><string>
+<name>STR_TOOLTIP_RIDE_FLY_SPEED</name>
+<en>Flight Speed</en>
+<de>Fluggeschwindigkeit</de>
+<es>Velocidad de vuelo</es>
+<fr>Vitesse de vol</fr>
+<it>Velocità di volo</it>
+<ko>비행 속도</ko>
+<pl>Prędkość lotu</pl>
+<us>Flight Speed</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ED_AIR</name>
+<en>Wind Resist</en>
+<de>Windresistenz</de>
+<es>Resistencia al viento</es>
+<fr>Résistance au vent</fr>
+<it>Resistenza al vento</it>
+<ko>바람속성 방어</ko>
+<pl>Odporność na wiatr</pl>
+<us>Wind Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ED_WATER</name>
+<en>Water Resist</en>
+<de>Wasserresistenz</de>
+<es>Resistencia al agua</es>
+<fr>Résistance à l'eau</fr>
+<it>Resistenza all’acqua</it>
+<ko>물속성 방어</ko>
+<pl>Odporność na wodę</pl>
+<us>Water Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ED_EARTH</name>
+<en>Earth Resist</en>
+<de>Erdresistenz</de>
+<es>Resistencia a la tierra</es>
+<fr>Résistance à la terre</fr>
+<it>Resistenza alla terra</it>
+<ko>땅속성 방어</ko>
+<pl>Odporność na ziemię</pl>
+<us>Earth Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ED_FIRE</name>
+<en>Fire Resist</en>
+<de>Feuerresistenz</de>
+<es>Resistencia al fuego</es>
+<fr>Résistance au feu</fr>
+<it>Resistenza al fuoco</it>
+<ko>불속성 방어</ko>
+<pl>Odporność na ogień</pl>
+<us>Fire Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_MAGCRITICAL</name>
+<en>Crit Spell</en>
+<de>Mag. krit. Treffer</de>
+<es>Golpe crítico mágico</es>
+<fr>Crit. magique</fr>
+<it>Colpo critico magico</it>
+<ko>마법 치명타</ko>
+<pl>Mag. traf. kryt.</pl>
+<us>Crit Spell</us>
+</string><string>
+<name>STR_BOOSTCASTINGTIME</name>
+<en>Casting Speed</en>
+<de>Wirkgeschwindigkeit</de>
+<es>Velocidad de lanzamiento</es>
+<fr>Vit. d'incantation</fr>
+<it>Velocità effetto</it>
+<ko>시전 속도</ko>
+<pl>Prędkość działania</pl>
+<us>Casting Speed</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ATTACKDELAY</name>
+<en>Atk Speed</en>
+<de>Angriffsgeschwindigkeit</de>
+<es>Velocidad de ataque</es>
+<fr>Vit. d'attaque</fr>
+<it>Velocità d’attacco</it>
+<ko>공격속도</ko>
+<pl>Szybkość ataku</pl>
+<us>Atk Speed</us>
+</string><string>
+<name>STR_MAGICAL_HIT_ACCURACY</name>
+<en>Magical Acc</en>
+<de>Mag. Präzision</de>
+<es>Precisión mágica</es>
+<fr>Préc. magique</fr>
+<it>Precisione magica</it>
+<ko>마법 적중</ko>
+<pl>Mag. precyzja</pl>
+<us>Magical Acc</us>
+</string><string>
+<name>STR_CRITICAL</name>
+<en>Crit Strike</en>
+<de>Krit. Treffer</de>
+<es>Golpe crítico</es>
+<fr>Crit. physique</fr>
+<it>Colpo critico</it>
+<ko>물리 치명타</ko>
+<pl>Trafienie kryt.</pl>
+<us>Crit Strike</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_MAGICAL_NEW_DEFENCE</name>
+<en>Magic Defence</en>
+<de>Magische Abwehr</de>
+<es>Defensa mágica</es>
+<fr>Défense magique</fr>
+<it>Difesa magica</it>
+<ko>마법 피해량 감소</ko>
+<pl>Obrona magiczna</pl>
+<us>Magical Defense</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARSTUN</name>
+<en>Stun Resist</en>
+<de>Betäubungswiderstand</de>
+<es>Resistencia al aturdimiento</es>
+<fr>Résistance à l'étourdissement</fr>
+<it>Resistenza allo stordimento</it>
+<ko>기절 저항</ko>
+<pl>Odporność na ogłuszenie</pl>
+<us>Stun Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARSTUMPLE</name>
+<en>Stumble Resist</en>
+<de>Stolperwiderstand</de>
+<es>Resistencia al tropiezo</es>
+<fr>Résistance au trébuchement</fr>
+<it>Resistenza agli inciampi</it>
+<ko>넘어짐 저항</ko>
+<pl>Odporność na potknięcia</pl>
+<us>Stumble Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARSTAGGER</name>
+<en>Knock Back Resist</en>
+<de>Rückschlagwiderstand</de>
+<es>Resistencia al retroceso</es>
+<fr>Valeur de la résistance au renversement</fr>
+<it>Resistenza ai contraccolpi</it>
+<ko>밀려남 저항</ko>
+<pl>Odporność na odparcie ataku</pl>
+<us>Knock Back Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_AROPENAREIAL</name>
+<en>Aether's Hold Resist</en>
+<de>Widerstand gegen Äthergriff</de>
+<es>Resistencia a la Presa de éter</es>
+<fr>Résistance à la Prise d'Éther</fr>
+<it>Resistenza ai tocchi eterei</it>
+<ko>공중 속박 저항</ko>
+<pl>Odporność na pochwycenie przez eter</pl>
+<us>Aerial Thrust Resistance</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARSNARE</name>
+<en>Reduce Speed Resist</en>
+<de>Widerstand gegen die Verringerung'der'Bewegungsgeschwindigkeit</de>
+<es>Resistencia a la ralentización de movimiento</es>
+<fr>Résistance à la réduction de la vitesse de déplacement</fr>
+<it>Resistenza alla diminuzione della velocità di spostamento</it>
+<ko>이동속도 감소 저항</ko>
+<pl>Odporność na ograniczenie prędkości poruszania się</pl>
+<us>Reduce Speed Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARSLOW</name>
+<en>Reduce Attack Speed Resist</en>
+<de>Widerstand gegen die Verringerung'der'Angriffsgeschwindigkeit</de>
+<es>Resistencia a la ralentización de ataque</es>
+<fr>Résistance à la réduction de la vitesse d'attaque</fr>
+<it>Resistenza alla diminuzione della velocità d'attacco</it>
+<ko>공격속도 감소 저항</ko>
+<pl>Odporność na ograniczenie prędkości ataku</pl>
+<us>Reduce Attack Speed Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARSPIN</name>
+<en>Spin Resist</en>
+<de>Drehwiderstand</de>
+<es>Resistencia a la rotación</es>
+<fr>Valeur de la résistance à la rotation</fr>
+<it>Resistenza alla rotazione</it>
+<ko>회전 저항</ko>
+<pl>Odporność na obrót</pl>
+<us>Spin Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARCURSE</name>
+<en>Curse Resist</en>
+<de>Fluchwiderstand</de>
+<es>Resistencia a maldiciones</es>
+<fr>Valeur de la résistance aux malédictions</fr>
+<it>Resistenza alle maledizioni</it>
+<ko>저주 저항</ko>
+<pl>Odporność na klątwę</pl>
+<us>Curse Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARCONFUSE</name>
+<en>Confusion Resist</en>
+<de>Verwirrungswiderstand</de>
+<es>Resistencia a la confusión</es>
+<fr>Valeur de la résistance à la confusion</fr>
+<it>Resistenza alla confusione</it>
+<ko>혼돈 저항</ko>
+<pl>Odporność na otumanienie</pl>
+<us>Confusion Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARPETRIFACTION</name>
+<en>Petrification Resist</en>
+<de>Versteinerungswiderstand</de>
+<es>Resistencia a la petrificación</es>
+<fr>Valeur de la résistance à la pétrification</fr>
+<it>Resistenza alla pietrificazione</it>
+<ko>석화 저항</ko>
+<pl>Odporność na przemianę w kamień</pl>
+<us>Petrification Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_POISON_ARP</name>
+<en>Poisoning Penetration</en>
+<de>Giftwiderstand-Durchdringung</de>
+<es>Penetración de resistencia al veneno</es>
+<fr>Valeur de pénétration de la résistance à l'empoisonnement</fr>
+<it>Penetrazione della resistenza al veleno</it>
+<ko>중독 저항 돌파</ko>
+<pl>Przebicie odporności na trucizny</pl>
+<us>Poisoning Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_BLEEED_ARP</name>
+<en>Bleeding Penetration</en>
+<de>Blutungswiderstand-Durchdringung</de>
+<es>Penetración de resistencia a la hemorragia</es>
+<fr>Valeur de pénétration de la résistance au saignement</fr>
+<it>Penetrazione della resistenza alle emorragie</it>
+<ko>출혈 저항 돌파</ko>
+<pl>Przebicie odporności na krwawienie</pl>
+<us>Bleeding Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_SLEEP_ARP</name>
+<en>Sleep Penetration</en>
+<de>Schlafwiderstand-Durchdringung</de>
+<es>Penetración de resistencia al sueño</es>
+<fr>Valeur de pénétration de la résistance au sommeil</fr>
+<it>Penetrazione della resistenza al sonno</it>
+<ko>수면 저항 돌파</ko>
+<pl>Przebicie odporności na sen</pl>
+<us>Sleep Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ROOT_ARP</name>
+<en>Immobilization Penetration</en>
+<de>Unbeweglichkeitsdurchdringung</de>
+<es>Penetración de inmovilidad</es>
+<fr>Pénétration de l'immobilité</fr>
+<it>Penetrazione della resistenza all'immobilizzazione</it>
+<ko>이동불가 저항 돌파</ko>
+<pl>Przebicie unieruchomienia</pl>
+<us>Immobilization Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_BLIND_ARP</name>
+<en>Blindness Penetration</en>
+<de>Blindheitswiderstand-Durchdringung</de>
+<es>Penetración de resistencia a la ceguera</es>
+<fr>Valeur de pénétration de la résistance à l'aveuglement</fr>
+<it>Penetrazione della resistenza alla cecità</it>
+<ko>실명 저항 돌파</ko>
+<pl>Przebicie odporności na oślepienie</pl>
+<us>Blindness Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_CHARM_ARP</name>
+<en>Charm Penetration</en>
+<de>Bezauberungswiderstand-Durchdringung</de>
+<es>Penetración de resistencia a los conjuros</es>
+<fr>Valeur de pénétration de la résistance au charme</fr>
+<it>Penetrazione della resistenza agli incantesimi</it>
+<ko>매혹 저항 돌파</ko>
+<pl>Przebicie odporności na zaczarowanie</pl>
+<us>Charm Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_DISEASE_ARP</name>
+<en>Disease Penetration</en>
+<de>Krankheitswiderstand-Durchdringung</de>
+<es>Penetración de resistencia a la enfermedad</es>
+<fr>Valeur de pénétration de la résistance aux maladies</fr>
+<it>Penetrazione della resistenza alle malattie</it>
+<ko>질병 저항 돌파</ko>
+<pl>Przebicie odporności na chorobę</pl>
+<us>Disease Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_FEAR_ARP</name>
+<en>Fear Penetration</en>
+<de>Furchtwiderstand-Durchdringung</de>
+<es>Penetración de resistencia al miedo</es>
+<fr>Valeur de pénétration de la résistance à la peur</fr>
+<it>Penetrazione della resistenza alla paura</it>
+<ko>공포 저항 돌파</ko>
+<pl>Przebicie odporności na strach</pl>
+<us>Fear Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_SPIN_ARP</name>
+<en>Spin Penetration</en>
+<de>Drehwiderstand-Durchdringung</de>
+<es>Penetración de resistencia a la rotación</es>
+<fr>Valeur de pénétration de la résistance à la rotation</fr>
+<it>Penetrazione della resistenza alla rotazione</it>
+<ko>회전 저항 돌파</ko>
+<pl>Przebicie odporności na obrót</pl>
+<us>Spin Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_CURSE_ARP</name>
+<en>Curse Penetration</en>
+<de>Fluchwiderstand-Durchdringung</de>
+<es>Penetración de resistencia a maldiciones</es>
+<fr>Valeur de pénétration de la résistance aux malédictions</fr>
+<it>Penetrazione della resistenza alle maledizioni</it>
+<ko>저주 저항 돌파</ko>
+<pl>Przebicie odporności na klątwę</pl>
+<us>Curse Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_CONFUSE_ARP</name>
+<en>Confusion Penetration</en>
+<de>Verwirrungswiderstand-Durchdringung</de>
+<es>Penetración de resistencia a la confusión</es>
+<fr>Valeur de pénétration de la résistance à la confusion</fr>
+<it>Penetrazione della resistenza alla confusione</it>
+<ko>혼돈 저항 돌파</ko>
+<pl>Przebicie odporności na otumanienie</pl>
+<us>Confusion Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_STUN_ARP</name>
+<en>Stun Penetration</en>
+<de>Betäubungswiderstand-Durchdringung</de>
+<es>Penetración de resistencia al aturdimiento</es>
+<fr>Valeur de pénétration de la résistance à l'étourdissement</fr>
+<it>Penetrazione della resistenza allo stordimento</it>
+<ko>기절 저항 돌파</ko>
+<pl>Przebicie odporności na ogłuszenie</pl>
+<us>Stun Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PETRIFACTION_ARP</name>
+<en>Petrification Penetration</en>
+<de>Versteinerungswiderstand-Durchdringung</de>
+<es>Penetración de resistencia a la petrificación</es>
+<fr>Valeur de pénétration de la résistance à la pétrification</fr>
+<it>Penetrazione della resistenza alla pietrificazione</it>
+<ko>석화 저항 돌파</ko>
+<pl>Przebicie odporności na przemianę w kamień</pl>
+<us>Petrification Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_STUMBLE_ARP</name>
+<en>Stumble Penetration</en>
+<de>Stolperwiderstand-Durchdringung</de>
+<es>Penetración de resistencia al tropiezo</es>
+<fr>Pénétration de la résistance au trébuchement</fr>
+<it>Penetrazione della resistenza agli inciampi</it>
+<ko>넘어짐 저항 돌파</ko>
+<pl>Przebicie odporności na potknięcia</pl>
+<us>Stumble Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_STAGGER_ARP</name>
+<en>Knock Back Penetration</en>
+<de>Rückschlagwiderstand-Durchdringung</de>
+<es>Penetración de resistencia al retroceso</es>
+<fr>Valeur de pénétration de la résistance au renversement</fr>
+<it>Penetrazione della resistenza ai contraccolpi</it>
+<ko>밀려남 저항 돌파</ko>
+<pl>Przebicie odporności na odparcie</pl>
+<us>Knock Back Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_OPENAREIAL_ARP</name>
+<en>Aether's Hold Penetration</en>
+<de>Durchdringung von Widerstand gegen Äthergriff</de>
+<es>Penetración de resistencia a la Presa de éter</es>
+<fr>Pénétration de la Prise d'Éther</fr>
+<it>Penetrazione della resistenza ai tocchi eterei</it>
+<ko>공중 속박 저항 돌파</ko>
+<pl>Przebicie odporności na pochwycenie przez eter</pl>
+<us>Aerial Thrust Resistance Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_SNARE_ARP</name>
+<en>Reduce Movement Speed Penetration</en>
+<de>Durchdringung von Widerstand gegen Verringerung der Bewegungsgeschwindigkeit</de>
+<es>Penetración de resistencia a la ralentización de movimiento</es>
+<fr>Valeur de pénétration de la résistance à la réduction de vitesse de déplacement</fr>
+<it>Penetrazione della resistenza alla diminuzione della velocità di spostamento</it>
+<ko>이동속도 감소 저항 돌파</ko>
+<pl>Przebicie odporności na ograniczenie prędkości poruszania się</pl>
+<us>Reduce Movement Speed Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_SLOW_ARP</name>
+<en>Reduce Attack Speed Penetration</en>
+<de>Durchdringung des Widerstandes gegen die Verringerung der Angriffsgeschwindigkeit</de>
+<es>Penetración de resistencia a la ralentización de ataque</es>
+<fr>Valeur d'érosion de la résistance à la réduction de la vitesse d'attaque.</fr>
+<it>Penetrazione della resistenza alla diminuzione della velocità d’attacco</it>
+<ko>공격속도 감소 저항 돌파</ko>
+<pl>Przebicie odporności na ograniczenie prędkości ataku</pl>
+<us>Reduce Attack Speed Penetration</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARBLEED</name>
+<en>Bleed Resist</en>
+<de>Blutungswiderstand</de>
+<es>Resistencia a la hemorragia</es>
+<fr>Résistance au saignement</fr>
+<it>Resistenza alle emorragie</it>
+<ko>출혈 저항</ko>
+<pl>Odporność na krwawienie</pl>
+<us>Bleed Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARBLIND</name>
+<en>Blind Resist</en>
+<de>Blindheitswiderstand</de>
+<es>Resistencia a la ceguera</es>
+<fr>Valeur de la résistance à l'aveuglement</fr>
+<it>Resistenza alla cecità</it>
+<ko>실명 저항</ko>
+<pl>Odporność na oślepienie</pl>
+<us>Blind Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARBIND</name>
+<en>Binding resistance</en>
+<de>Bindungswiderstand</de>
+<es>Resistencia a la atadura</es>
+<fr>Résistance à la liaison</fr>
+<it>Resistenza al legame</it>
+<ko>봉쇄 저항</ko>
+<pl>Odporność na Wiązanie</pl>
+<us>Blockade Resistance</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARCHARM</name>
+<en>Charm Resist</en>
+<de>Bezauberungswiderstand</de>
+<es>Resistencia a los conjuros</es>
+<fr>Valeur de la résistance au charme</fr>
+<it>Resistenza agli incantesimi</it>
+<ko>매혹 저항</ko>
+<pl>Odporność na zaczarowanie</pl>
+<us>Charm Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARDISEASE</name>
+<en>Disease Resist</en>
+<de>Krankheitswiderstand</de>
+<es>Resistencia a la enfermedad</es>
+<fr>Valeur de la résistance aux maladies</fr>
+<it>Resistenza alle malattie</it>
+<ko>질병 저항</ko>
+<pl>Odporność na chorobę</pl>
+<us>Disease Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARFEAR</name>
+<en>Fear Resist</en>
+<de>Furchtwiderstand</de>
+<es>Resistencia al miedo</es>
+<fr>Valeur de la résistance à la peur</fr>
+<it>Resistenza alla paura</it>
+<ko>공포 저항</ko>
+<pl>Odporność na strach</pl>
+<us>Fear Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARPOISION</name>
+<en>Poison Resist</en>
+<de>Giftwiderstand</de>
+<es>Resistencia al veneno</es>
+<fr>Résistance à l'empoisonnement</fr>
+<it>Resistenza al veleno</it>
+<ko>중독 저항</ko>
+<pl>Odporność na trucizny</pl>
+<us>Poison Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARROOT</name>
+<en>Immobilization Resist</en>
+<de>Unbeweglichkeitswiderstand</de>
+<es>Resistencia a la inmovilidad</es>
+<fr>Résistance à l'immobilité</fr>
+<it>Resistenza all'immobilizzazione</it>
+<ko>이동불가 저항</ko>
+<pl>Odporność na unieruchomienie</pl>
+<us>Immobilization Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_ARSLEEP</name>
+<en>Sleep Resist</en>
+<de>Schlafwiderstand</de>
+<es>Resistencia al sueño</es>
+<fr>Valeur de la résistance au sommeil</fr>
+<it>Resistenza al sonno</it>
+<ko>수면 저항</ko>
+<pl>Odporność na brak snu</pl>
+<us>Sleep Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_SPEED</name>
+<en>Speed</en>
+<de>Bewegungsgeschwindigkeit</de>
+<es>Velocidad</es>
+<fr>Vitesse</fr>
+<it>Velocità</it>
+<ko>이동속도</ko>
+<pl>Szybkość</pl>
+<us>Speed</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PVP_DODGE</name>
+<en>Evasion (PvP)</en>
+<de>Ausweichen (PvP)</de>
+<es>Evasión (JcJ)</es>
+<fr>Esquive (PVP)</fr>
+<it>Schivata (PVP)</it>
+<ko>PVP 회피</ko>
+<pl>Unik (PvP)</pl>
+<us>PvP Evasion</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PVP_BLOCK</name>
+<en>Block (PvP)</en>
+<de>Blocken (PVP)</de>
+<es>Bloqueo (JcJ)</es>
+<fr>Blocage (PVP)</fr>
+<it>Bloccaggio (PVP)</it>
+<ko>PVP 방패 방어</ko>
+<pl>Blokowanie (PVP)</pl>
+<us>PvP Block</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PVP_PARRY</name>
+<en>Parry (PvP)</en>
+<de>Parieren (PvP)</de>
+<es>Parada (JcJ)</es>
+<fr>Parade (PVP)</fr>
+<it>Parata (PVP)</it>
+<ko>PVP 무기 방어</ko>
+<pl>Parowanie (PvP)</pl>
+<us>PvP Parry</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PVP_HIT_ACCURACY</name>
+<en>Accuracy (PvP)</en>
+<de>Präzision (PvP)</de>
+<es>Precisión (JcJ)</es>
+<fr>Précision (PVP)</fr>
+<it>Precisione (PVP)</it>
+<ko>PVP 명중</ko>
+<pl>Precyzja (PvP)</pl>
+<us>PvP Accuracy</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PVP_MAGICAL_RESIST</name>
+<en>Magic Resistance (PvP)</en>
+<de>Magiewiderstand (PvP)</de>
+<es>Resistencia a la magia (JcJ)</es>
+<fr>Rés. magique (PVP)</fr>
+<it>Resistenza alla magia (PVP)</it>
+<ko>PVP 마법 저항</ko>
+<pl>Odporność na Magię (PvP)</pl>
+<us>PvP Magic Resist</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PVP_MAGICAL_HIT_ACCURACY</name>
+<en>Magic'Accuracy (PvP)</en>
+<de>Mag.'Präzision (PvP)</de>
+<es>Precisión mágica (JcJ)</es>
+<fr>Préc.'Magique (PVP)</fr>
+<it>Precisione'magica (PVP)</it>
+<ko>PVP 마법 적중</ko>
+<pl>Magiczna Precyzja (PvP)</pl>
+<us>PvP Magical Accuracy</us>
+</string><string>
+<name>STR_BOOSTHATE</name>
+<en>Enmity Boost</en>
+<de>Zornerhöhung</de>
+<es>Aumento de ira</es>
+<fr>Hostilité augmentée</fr>
+<it>Aumento ira</it>
+<ko>적대치 증폭력</ko>
+<pl>Zwiększenie gniewu</pl>
+<us>Enmity Boost</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_BOOSTSPEED</name>
+<en>Swoop flight speed</en>
+<de>Sturzflug-Geschwindigkeit</de>
+<es>Velocidad de vuelo en picado</es>
+<fr>Vitesse de vol en piqué</fr>
+<it>Velocità del volo in picchiata</it>
+<ko>전력비행 속도</ko>
+<pl>Prędkość lotu nurkującego.</pl>
+<us>Soar Speed</us>
+</string><string>
+<name>STR_TOOLTIP_ITEM_PVP_ATTACK_RATIO_PHYSICAL</name>
+<en>Physical Attack (PvP)</en>
+<de>Phys. Angriff (PvP)</de>
+<es>Ataque fís. (JcJ)</es>
+<fr>Attaque physique (PvP)</fr>
+<it>Attacco fisico (PvP)</it>
+<ko>PVP 물리 공격력</ko>
+<pl>Atak fiz. (PvP)</pl>
+<us>PvP Physical Attack</us>
+</string><string>
+<name>STR_TOOLTIP_ITEM_PVP_ATTACK_RATIO_MAGICAL</name>
+<en>Magical Attack (PvP)</en>
+<de>Mag. Angriff (PvP)</de>
+<es>Ataque mág. (JcJ)</es>
+<fr>Attaque magique (PvP)</fr>
+<it>Attacco magico (PvP)</it>
+<ko>PVP 마법 공격력</ko>
+<pl>Atak mag. (PvP)</pl>
+<us>PvP Magical Attack</us>
+</string><string>
+<name>STR_TOOLTIP_ITEM_PVP_BONUS_ATTACK</name>
+<en>PVP Attack</en>
+<de>PvP-Angriff</de>
+<es>Ataque JcJ</es>
+<fr>Attaque PvP</fr>
+<it>Attacco PvP</it>
+<ko>PVP 공격력</ko>
+<pl>Atak PvP</pl>
+<us>PvP Attack</us>
+</string><string>
+<name>STR_TOOLTIP_ITEM_PVP_BONUS_DEFENSE</name>
+<en>PVP Defence</en>
+<de>PvP-Verteidigung</de>
+<es>Defensa JcJ</es>
+<fr>Défense PvP</fr>
+<it>Difesa PvP</it>
+<ko>PVP 피해량 감소</ko>
+<pl>Obrona PvP</pl>
+<us>PvP Defense</us>
+</string><string>
+<name>STR_TOOLTIP_ITEM_PVP_DEFEND_RATIO_PHYSICAL</name>
+<en>Physical Defence (PvP)</en>
+<de>Phys. Abwehr (PvP)</de>
+<es>Defensa fís. (JcJ)</es>
+<fr>Défense physique (PvP)</fr>
+<it>Difesa fisica (PvP)</it>
+<ko>PVP 물리 방어력</ko>
+<pl>Obrona fiz. (PvP)</pl>
+<us>PvP Physical Defense</us>
+</string><string>
+<name>STR_TOOLTIP_ITEM_PVP_DEFEND_RATIO_MAGICAL</name>
+<en>Magic Defence (PvP)</en>
+<de>Mag. Abwehr (PvP)</de>
+<es>Defensa mág. (JcJ)</es>
+<fr>Défense magique (PvP)</fr>
+<it>Difesa magica (PvP)</it>
+<ko>PVP 마법 방어력</ko>
+<pl>Obrona mag. (PvP)</pl>
+<us>PvP Magical Defense</us>
+</string><string>
+<name>STR_TOOLTIP_SKILL_STAT_PROC_REDUCE_RATE</name>
+<en>Godstone Prevention</en>
+<de>Gottstein-Unterdrückung</de>
+<es>Supresión de la Piedra divina</es>
+<fr>Répression de la Pierre divine</fr>
+<it>Repressione della pietra della divinità</it>
+<ko>신석 발동 억제</ko>
+<pl>Stłumienie Boskiego Kamienia</pl>
+<us>Godstone Activation Suppression</us>
+</string><string>
+<name>STR_TOOLTIP_ITEM_PVE_BONUS_ATTACK</name>
+<en>PvE - Attack</en>
+<de>PvE - Angriff</de>
+<es>JcE - Ataque</es>
+<fr>PvE - Attaque</fr>
+<it>PvE - Attacco</it>
+<ko>PVE 공격력</ko>
+<pl>PvE — Atak</pl>
+<us>PvE Attack</us>
+</string><string>
+<name>STR_TOOLTIP_ITEM_PVE_BONUS_DEFENSE</name>
+<en>PvE - Defence</en>
+<de>PvE - Verteidigung</de>
+<es>JcE - Defensa</es>
+<fr>PvE - Défense</fr>
+<it>PvE - Difesa</it>
+<ko>PVE 피해량 감소</ko>
+<pl>PvE — Obrona</pl>
+<us>PvE Defense</us>
+</string><string>
+<name>STR_PHYSICAL_POWER_BOOST</name>
+<en>Physical Damage</en>
+<de>Physical Damage</de>
+<es>Physical Damage</es>
+<fr>Physical Damage</fr>
+<it>Physical Damage</it>
+<ko>물리 공격력</ko>
+<pl>Physical Damage</pl>
+<us>Physical Damage</us>
+</string><string>
+<name>STR_PHYSICAL_POWER_BOOST_RESIST</name>
+<en>Physical Defense</en>
+<de>Physical Defense</de>
+<es>Physical Defense</es>
+<fr>Physical Defense</fr>
+<it>Physical Defense</it>
+<ko>물리 방어</ko>
+<pl>Physical Defense</pl>
+<us>Physical Defense</us>
+</string><string>
+<name>STR_MAGICAL_POWER_BOOST</name>
+<en>Magical Damage</en>
+<de>Magical Damage</de>
+<es>Magical Damage</es>
+<fr>Magical Damage</fr>
+<it>Magical Damage</it>
+<ko>마법 공격력</ko>
+<pl>Magical Damage</pl>
+<us>Magical Damage</us>
+</string><string>
+<name>STR_MAGICAL_POWER_BOOST_RESIST</name>
+<en>Magical Defense</en>
+<de>Magical Defense</de>
+<es>Magical Defense</es>
+<fr>Magical Defense</fr>
+<it>Magical Defense</it>
+<ko>마법 방어</ko>
+<pl>Magical Defense</pl>
+<us>Magical Defense</us>
+</string><string>
+<name>STR_PVP_POWER_BOOST</name>
+<en>PVP Damage</en>
+<de>PVP Damage</de>
+<es>PVP Damage</es>
+<fr>PVP Damage</fr>
+<it>PVP Damage</it>
+<ko>PvP 추가 공격력</ko>
+<pl>PVP Damage</pl>
+<us>PVP Damage</us>
+</string><string>
+<name>STR_PVE_POWER_BOOST</name>
+<en>PVE Damage</en>
+<de>PVE Damage</de>
+<es>PVE Damage</es>
+<fr>PVE Damage</fr>
+<it>PVE Damage</it>
+<ko>PvE 추가 공격력</ko>
+<pl>PVE Damage</pl>
+<us>PVE Damage</us>
+</string>
+<string>
+<name>STR_TOOLTIP_GLOVE</name>
+<en>Gloves</en>
+<de>Handschuhe</de>
+<es>Guantes</es>
+<fr>Mains</fr>
+<it>Guanti</it>
+<ko>장갑</ko>
+<pl>Rękawice</pl>
+<us>Gloves</us>
+</string>
+<string>
+<name>STR_TOOLTIP_LEG</name>
+<en>Pants</en>
+<de>Hose</de>
+<es>Pantalón</es>
+<fr>Jambes</fr>
+<it>Pantaloni</it>
+<ko>하의</ko>
+<pl>Spodnie</pl>
+<us>Pants</us>
+</string>
+<string>
+<name>STR_TOOLTIP_FOOT</name>
+<en>Shoes</en>
+<de>Schuhe</de>
+<es>Zapatos</es>
+<fr>Pieds</fr>
+<it>Scarpe</it>
+<ko>신발</ko>
+<pl>Buty</pl>
+<us>Shoes</us>
+</string>
+<string>
+<name>STR_TOOLTIP_SHOULDER</name>
+<en>Pauldrons</en>
+<de>Schulterschutz</de>
+<es>Hombrera</es>
+<fr>Épaules</fr>
+<it>Spallacci</it>
+<ko>어깨</ko>
+<pl>Naramienniki</pl>
+<us>Pauldrons</us>
+</string>
+<string>
+<name>STR_TOOLTIP_TORSO</name>
+<id>98</id>
+<en>Jacket</en>
+<de>Oberteil</de>
+<es>Prenda superior</es>
+<fr>Torse</fr>
+<it>Parte superiore</it>
+<ko>상의</ko>
+<pl>Góra stroju</pl>
+<us>Jacket</us>
+</string>
+
+<string>
+<name>STR_PVE_POWER_BOOST_RESIST</name>
+<id>99</id>
+<en>Additional PvE Defence</en>
+<de>Zusätzliche PvE-Abwehr</de>
+<es>Defensa JcE adicional</es>
+<fr>Défense PvE supplémentaire</fr>
+<it>Difesa PvE aggiuntiva</it>
+<ko>PVP 추가 방어력</ko>
+<pl>Dodatkowa obrona PvE</pl>
+<us>PVP Defense</us>
+</string>
+
+<string>
+<name>STR_PVE_POWER_BOOST_RESIST</name>
+<id>100</id>
+<en>Additional PvE Defence</en>
+<de>Zusätzliche PvE-Abwehr</de>
+<es>Defensa JcE adicional</es>
+<fr>Défense PvE supplémentaire</fr>
+<it>Difesa PvE aggiuntiva</it>
+<ko>PVP 추가 방어력</ko>
+<pl>Dodatkowa obrona PvE</pl>
+<us>PVP Defense</us>
+</string>
+
+</strings>

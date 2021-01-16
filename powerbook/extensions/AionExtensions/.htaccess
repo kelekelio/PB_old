@@ -1,0 +1,20 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^aionpowerbook\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.aionpowerbook\.com$
+RewriteRule ^/?$ "https\:\/\/aionpowerbook\.com\/powerbook\/" [R=301,L]
+
+order allow,deny
+deny from 91.48.110.41
+deny from 79.233.44.87
+deny from net.novis.pt
+deny from 109.51.
+deny from 87.196.
+deny from beastnode.com
+deny from 107.
+deny from 23.83.
+deny from 23.94.
+deny from colocrossing.com
+deny from ubiquityservers.com
+deny from 80.235.94.245
+allow from all

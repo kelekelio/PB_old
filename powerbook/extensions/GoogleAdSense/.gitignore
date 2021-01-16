@@ -1,0 +1,6 @@
+/node_modules/
+.svn
+*~
+*.kate-swp
+.*.swp
+.idea

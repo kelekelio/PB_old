@@ -1,0 +1,251 @@
+/*aionmap*/
+/* usermap */
+.mapCanvas {overflow:hidden;position:relative; left:0; top:0;width:575px; height:315px; margin:5px auto;background-repetat:no-repeat;background-position:center 50% !important;}
+.mapCanvas .icon {position: absolute;width:26px; height:24px;}
+.mapCanvas .icon div {width:26px; height:24px; background-repeat:no-repeat !important;}
+.mapCanvas .icon_boss {position: absolute;width:43px;height:40px;}
+.mapCanvas .icon_boss div {width:43px;height:40px; background-repeat:no-repeat;}
+.boss1 {background:url('img/mapcss/boss1b.gif');width:43px !important;height:40px !important;}
+.class1 {background:url('img/mapcss/class1.gif');}
+.class2 {background:url('img/mapcss/class2.gif');}
+.class3 {background:url('img/mapcss/class3.gif');}
+.class4 {background:url('img/mapcss/class4.gif');}
+.class5 {background:url('img/mapcss/class5.gif');}
+.class6 {background:url('img/mapcss/class6.gif');}
+.class7 {background:url('img/mapcss/class7.gif');}
+.class8 {background:url('img/mapcss/class8.gif');}
+.job1 {background:url('img/mapcss/job1.gif');}
+.job2 {background:url('img/mapcss/job2.gif');}
+.job3 {background:url('img/mapcss/job3.gif');}
+.num1 {background:url('img/mapcss/num1.gif');}
+.num2 {background:url('img/mapcss/num2.gif');}
+.num3 {background:url('img/mapcss/num3.gif');}
+.num4 {background:url('img/mapcss/num4.gif');}
+.num5 {background:url('img/mapcss/num5.gif');}
+.num6 {background:url('img/mapcss/num6.gif');}
+.mark1 {background:url('img/mapcss/mark1.gif');}
+.mark2 {background:url('img/mapcss/mark2.gif');}
+
+/* aion map */
+.png24 {tmp:expression(setPng24(this));}
+.aionmap {overflow:hidden; position:relative; }
+.gamemap1 {width:600px; height:600px; padding:40px 0 0 0;background-color:#4a3c31;}
+.gamemap2 {width:280px; height:230px; padding:35px 0 0 0; float:left; margin:0 0 10px;background-color:#4a3c31;}
+.gamemap2 .mapAreaTitle {display:none;}
+	.gamemap1 .map_container {position:relative; overflow:hidden;width:600px; height:600px;}
+	.gamemap2 .map_container {position:relative; overflow:hidden;width:280px; height:230px;}
+.map_container .active {cursor:move;}
+.map_container .drag_handler {position:absolute; top:0; left:0;background:#FFF;filter:alpha(opacity=0); opacity:0; -moz-opacity:0; z-index:990;}
+.map_container .map_canvas {position:absolute; top:0; left:0;z-index:970;}
+.map_container .map_canvas .canvas_normal {position:relative; height:50px;}
+.map_container .map_canvas .canvas_normal .mapimg {}
+.map_container .map_canvas .canvas_normal .area {position:absolute; top:0; left:0;z-index:970;}
+.map_container .map_canvas .canvas_normal .spots {position:absolute; top:0; left:0;z-index:980;}
+.map_container .map_canvas .canvas_simple {position:relative;display:none;}
+.map_container .map_canvas .canvas_simple .area {position:absolute; top:0; left:0;}
+.map_container .icon {position:absolute;display:block;width:18px; height:20px;}
+.map_container .map_desc {position: absolute;display: block;width: 95px;margin:5px 0 0 40px;padding:7px 10px;line-height:18px;font-size:11px;color:#444 !important;letter-spacing:-1px;background-color:#f9f9f9;}
+.map_container .a1 {background: url("img/mapcss/aion_icon1.gif") no-repeat -61px -100px;}
+.map_container .c1 {background: url("img/mapcss/ic_c1.gif") no-repeat;}
+.map_container .g1 {background: url("img/mapcss/ic_g1.png") no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/mapcss/ic_g1.png',sizingMethod='crop');}
+.map_container .g2 {background: url("img/mapcss/ic_g2.png") no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/mapcss/ic_g2.png',sizingMethod='crop');}
+.map_container .ma1 {width:32px !important; height:34px !important;background: url("img/mapcss/manorb.png") no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/mapcss/manorb.png',sizingMethod='crop');}
+.map_container .ma2 {width:32px !important; height:34px !important;background: url("img/mapcss/manorg.png") no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/mapcss/manorg.png',sizingMethod='crop');}
+.map_container .ma3 {width:32px !important; height:34px !important;background: url("img/mapcss/manorr.png") no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/mapcss/manorr.png',sizingMethod='crop');}
+.map_container .inst {position:absolute;display:block;width:30px !important; height:34px !important;background: url("img/mapcss/instance.png") no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/mapcss/instance.png',sizingMethod='crop');}
+.map_container .m1 {background: url("img/mapcss/ic_m1.gif") no-repeat;}
+.map_container .m2 {background: url("img/mapcss/ic_m2.gif") no-repeat;}
+.map_container .m3 {background: url("img/mapcss/ic_m3.gif") no-repeat;}
+.map_container .m4 {background: url("img/mapcss/ic_m4.gif") no-repeat;}
+.map_container .m5 {background: url("img/mapcss/ic_m5.gif") no-repeat;}
+.map_container .m6 {background: url("img/mapcss/ic_m6.gif") no-repeat;}
+.map_container .m7 {background: url("img/mapcss/ic_m7.gif") no-repeat;}
+.map_container .n1 {background: url("img/mapcss/ic_n1.gif") no-repeat;}
+.map_container .n2 {background: url("img/mapcss/ic_n2.gif") no-repeat;}
+.map_container .n3 {background: url("img/mapcss/ic_n3.gif") no-repeat;}
+.map_container .n4 {background: url("img/mapcss/ic_n4.gif") no-repeat;}
+.map_container .n5 {background: url("img/mapcss/ic_n5.gif") no-repeat;}
+.map_container .o1 {background: url("img/mapcss/ic_o1.png") no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/mapcss/ic_o1.png',sizingMethod='crop');}
+.aionmap .toolbar {position:absolute; z-index:999;height:20px; display:none;}
+	.gamemap1 .toolbar {top:13px;right:9px; }
+	.gamemap2 .toolbar {top:10px;right:34px; }
+.aionmap .toolbar span {float:left; display:block; width:57px; height:24px; margin-right:1px;cursor:pointer;color:#eee6dd; background: url("img/mapcss/btn_maptype.gif") no-repeat; text-indent:-99999px; overflow:hidden;}
+.aionmap .toolbar span.on {color:#FF0000; font-weight:bold;}
+.aionmap .toolbar span.satellite span {background-position:0 0;}
+.aionmap .toolbar span.simple span {background-position:-58px 0;}
+.aionmap .toolbar span.radar span {background-position:-116px 0;}
+.aionmap .toolbar span.satellite span.on {background-position:0 -26px;}
+.aionmap .toolbar span.simple span.on {background-position:-58px -26px;}
+.aionmap .toolbar span.radar span.on {background-position:-116px -26px;}
+.aionmap .btn_expand_map {display:block; position:absolute; top:7px; right:9px; width:63px; height:22px; background:url("img/mapcss/aionmap_zoom.gif") no-repeat right 0; cursor:pointer;}
+.gamemap1 .btn_expand_map {display:none;}
+.aionmap .zoom {position:absolute; top:35px; right:9px;width:26px;height:154px; z-index:9999; background:url("img/mapcss/aionmap_zoom.gif") #4a3c31 no-repeat 3px 2px;}
+	.gamemap1 .zoom{top:40px;}
+.aionmap .zoom .zoom_cnt {position:relative;}
+.aionmap .zoom .btn_plus {display:block; cursor:pointer; width:23px; height:21px; text-indent:-99999px; overflow:hidden; position:absolute; top:1px; left:1px;}
+.aionmap .zoom .btn_minus {display:block;cursor:pointer;width:23px; height:21px;text-indent:-99999px; overflow:hidden;position:absolute; top:131px; left:1px;}
+.aionmap .zoom .btn_current {display:block;cursor:pointer;width:18px; height:10px;text-indent:-99999px; overflow:hidden;position:absolute; top:114px; left:7px; background:url("img/mapcss/aionmap_zoom.gif") no-repeat -38px 0px;}
+.area_name {color:#FFF; position:absolute; top:8; left:0; z-index:9999;  overflow:hidden; margin:0;}
+.gamemap1 .area_name span{background: url("img/mapcss/areaname2_v10.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 15px; }
+.gamemap2 .area_name span{background: url("img/mapcss/areaname2_v10.gif") no-repeat; width:195px;height:23px;margin:0px 0 0 8px; }
+.area_name span {display:block; text-indent:-99999px;}
+.area_name span.IDF4RE_DRANA {background-position:0 0;}
+.area_name span.IDELIM {background-position:0 -30px;}
+.area_name span.IDDREADGION_02 {background-position:0 -60px;}
+.area_name span.IDNOVICE {background-position:0 -120px;}
+.area_name span.IDLF1 {background-position:0 -150px;}
+.area_name span.IDAB1_DREADGION {background-position:0 -180px;}
+.area_name span.AB1_3 {background-position:0 -210px;}
+.area_name span.AB1_2 {background-position:0 -240px;}
+.area_name span.AB1_1 {background-position:0 -270px;}
+.area_name span.UNDERPASS {background-position:0 -300px;}
+.area_name span.DF4 {background-position:0 -330px;}
+.area_name span.DF3 {background-position:0 -360px;}
+.area_name span.DF2A {background-position:0 -390px;}
+.area_name span.DF1A {background-position:0 -420px;}
+.area_name span.DF2 {background-position:0 -450px;}
+.area_name span.DF1 {background-position:0 -480px;}
+.area_name span.DC1 {background-position:0 -510px;}
+.area_name span.LF4 {background-position:0 -540px;}
+.area_name span.LF3 {background-position:0 -570px;}
+.area_name span.LF2A {background-position:0 -600px;}
+.area_name span.LF2 {background-position:0 -630px;}
+.area_name span.LF1A {background-position:0 -660px;}
+.area_name span.LF1 {background-position:0 -690px;}
+.area_name span.LC1 {background-position:0 -720px;}
+.area_name span.HOUSING_DF_PERSONAL{background-position:0 -750px;} /*페르논*/
+.area_name span.HOUSING_LF_PERSONAL{background-position:0 -780px;} /*엘리안*/
+.area_name span.IDSTATION{background-position:0 -810px;} /*아투람 공중요새*/
+.area_name span.IDRAKSHA_1{background-position:0 -840px;}/*타메스 하부*/
+.area_name span.IDRAKSHA_2{background-position:0 -870px;}/*타메스 중부*/
+.area_name span.IDRAKSHA_3{background-position:0 -900px;}/*타메스 상부*/
+.area_name span.IDYUN{background-position:0 -930px;} /*렌투스 기지*/
+.area_name span.IDELEMENTAL_1{background-position:0 -960px;} /*라디스 숲*/
+.area_name span.IDELEMENTAL_2_1{background-position:0 -990px;} /*도르겔 저택 1층*/
+.area_name span.IDELEMENTAL_2_2{background-position:0 -1020px;} /*도르겔 저택 2층*/
+.area_name span.IDELEMENTAL_2_3{background-position:0 -1050px;} /*도르겔 저택 전체 관측실*/
+.area_name span.LDF4A{background-position:0 -1080px;} /*사르판*/
+.area_name span.LDF4B{background-position:0 -1110px;} /*티아마란타*/
+.area_name span.TIAMAT_DOWN{background-position:0 -1140px;} /*티아마란타의 눈*/
+.area_name span.IDDREADGION_03{background-position:0 -1170px;} /*사드라 드레드기온*/
+.area_name span.IDAB1_MINICASTLE{background-position:0 -1200px;} /*노흐사나 훈련소*/
+.area_name span.IDABRE_CORE{background-position:0 -1230px;} /*심연의 잔해*/
+.area_name span.IDABRE_LOW_DIVINE{background-position:0 -1260px;} /*유황 나무 둥지*/
+.area_name span.IDABRE_LOW_ECIEL{background-position:0 -1290px;} /*오른쪽 날개 그늘*/
+.area_name span.IDABRE_LOW_WCIEL{background-position:0 -1320px;} /*왼쪽 날개 그늘*/
+.area_name span.IDABRE_UP3_CROTAN{background-position:0 -1350px;} /*크로탄 지하요새*/
+.area_name span.IDABRE_UP3_DKISAS{background-position:0 -1380px;} /*드키사스 지하요새*/
+.area_name span.IDABRE_UP3_LAMIREN{background-position:0 -1410px;} /*라 미렌 지하요새*/
+.area_name span.IDABRE_UP_ASTERIA{background-position:0 -1440px;} /*아스테리아의 심연*/
+.area_name span.IDABRE_UP_RHOO{background-position:0 -1470px;} /*고대도시 루의 지하요새*/
+.area_name span.IDCATACOMBS{background-position:0 -1500px;} /*파슈만디르 사원*/
+.area_name span.IDDF2A_ADMA{background-position:0 -1530px;} /*아드마 성채*/
+.area_name span.IDDF2FLYING{background-position:0 -1560px;} /*아르카니스 공중신전 내부*/
+.area_name span.IDDF2_DFLAME{background-position:0 -1590px;} /*불의 신전*/
+.area_name span.IDDF3_DRAGON{background-position:0 -1620px;} /*드라웁니르 동굴*/
+.area_name span.IDDF3_LP{background-position:0 -1650px;} /*알퀴미아 연구소*/
+.area_name span.IDLF2A_LAB{background-position:0 -1680px;} /*테오보모스 비밀연구소*/
+.area_name span.IDLF3LP{background-position:0 -1710px;} /*혁명단 비밀연구소*/
+.area_name span.IDLF3_CASTLE_INDRATOO{background-position:0 -1740px;} /*인드라투 요새*/
+.area_name span.IDLF3_CASTLE_LEHPAR{background-position:0 -1770px;} /*아조투란 요새*/
+.area_name span.IDSHULACKSHIP_1{background-position:0 -1800px;} /*강철갈퀴 호 하층*/
+.area_name span.IDSHULACKSHIP_2{background-position:0 -1830px;} /*강철갈퀴 호 중층*/
+.area_name span.IDSHULACKSHIP_3{background-position:0 -1860px;} /*강철갈퀴 호 상층*/
+.area_name span.IDTEMPLE_LOW{background-position:0 -1890px;} /*우다스 신전 지하*/
+.area_name span.IDTEMPLE_UP{background-position:0 -1920px;} /*버려진 우다스 신전*/
+.area_name span.IDTIAMAT_REWARD{background-position:0 -1950px;} /*사트라의 비밀창고*/
+.area_name span.ARENA_D_LOBBY{background-position:0 -1980px;} /*마르쿠탄 템페르 훈련소*/
+.area_name span.ARENA_L_LOBBY{background-position:0 -2010px;} /*카이시넬 템페르 훈련소*/
+.area_name span.LF6{background-position:0 -2040px;} /*북부 카탈람*/
+.area_name span.DF6{background-position:0 -2070px;} /*남부 카탈람*/
+.area_name span.IDSHULACK_ROSE_SOLO_01{background-position:0 -2100px;} /*강철장미 호 선창 (솔로)*/
+.area_name span.IDSHULACK_ROSE_SOLO_02{background-position:0 -2130px;} /*강철장미 호 선실 (솔로)*/
+.area_name span.IDSHULACK_ROSE_01{background-position:0 -2160px;} /*강철장미 호 선창 (파티)*/
+.area_name span.IDSHULACK_ROSE_02{background-position:0 -2190px;} /*강철장미 호 선실 (파티)*/
+.area_name span.IDSHULACK_ROSE_03{background-position:0 -2220px;} /*강철장미 호 갑판*/
+.area_name span.LDF5_UNDER{background-position:0 -2250px;} /*카탈람 지하*/
+.area_name span.LDF4_ADVANCE{background-position:0 -2280px;} /*게르하*/
+.area_name span.DF5{background-position:0 -2340px;} /*Vengar*/
+.area_name span.LF5{background-position:0 -2370px;} /*Signia*/
+.area_name span.IDEternity_01{background: url("img/mapcss/IDEternity_01.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDEternity_02{background: url("img/mapcss/IDEternity_02.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDTransform{background: url("img/mapcss/IDTransform.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDLDF5RE_Solo{background: url("img/mapcss/IDLDF5RE_Solo.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDLDF5b_TD{background: url("img/mapcss/IDLDF5b_TD.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDLDF5_Fortress_RE{background: url("img/mapcss/IDLDF5_Fortress_RE.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDLuna_def{background: url("img/mapcss/IDLuna_def.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDLuna_Siege{background: url("img/mapcss/IDLuna_Siege.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDDreadgion_04{background: url("img/mapcss/IDDreadgion_04.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF6_LF1{background: url("img/mapcss/IDF6_LF1.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDLC1_dreadgion{background: url("img/mapcss/IDLC1_dreadgion.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDDC1_dreadgion{background: url("img/mapcss/IDDC1_dreadgion.gif") no-repeat; width:250px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDElemental_2_E{background: url("img/mapcss/IDElemental_2_E.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDEternity_03{background: url("img/mapcss/IDEternity_03.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDAb1_Ere{background: url("img/mapcss/IDAb1_Ere.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDEternity_War{background: url("img/mapcss/IDEternity_War.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF6_Dragon{background: url("img/mapcss/IDF6_Dragon.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF6_Lap{background: url("img/mapcss/IDF6_Lap.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDAbre_core_03{background: url("img/mapcss/IDAbre_core_03.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDAbre_core_03_event{background: url("img/mapcss/IDAbre_core_03_event.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDAb1_Heroes_L{background: url("img/mapcss/IDAb1_Heroes_L.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDAb1_Heroes_D{background: url("img/mapcss/IDAb1_Heroes_D.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDCROMEDE{background: url("img/mapcss/IDCROMEDE.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.DF5_Ship{background: url("img/mapcss/DF5_Ship.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF4Re_Drana{background: url("img/mapcss/IDF4Re_Drana.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDTiamat_1{background: url("img/mapcss/IDTiamat_1.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDTiamat_2{background: url("img/mapcss/IDTiamat_2.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDSeal_Q{background: url("img/mapcss/IDSeal_Q.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDRun{background: url("img/mapcss/IDRun.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDTM_ArenaE_01{background: url("img/mapcss/IDTM_ArenaE_01.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDTM_LobbyE_01{background: url("img/mapcss/IDTM_LobbyE_01.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF7_Weapon{background: url("img/mapcss/IDF7_Weapon.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDUnderpass{background: url("img/mapcss/IDUnderpass.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDCubic{background: url("img/mapcss/IDCubic.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDEternity_02_Event{background: url("img/mapcss/IDEternity_02_Event.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDDF3_Castle_Vakarma{background: url("img/mapcss/IDDF3_Castle_Vakarma.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.Underpass{background: url("img/mapcss/Underpass.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.LDF7{background: url("img/mapcss/LDF7.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF7_Ere{background: url("img/mapcss/IDF7_Ere.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF7_Mine{background: url("img/mapcss/IDF7_Mine.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDRun_K{background: url("img/mapcss/IDRun.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDBattle_Change{background: url("img/mapcss/IDBattle_Change.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDWaterWorld{background: url("img/mapcss/IDWaterWorld.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDEvent_solo2{background: url("img/mapcss/IDEvent_solo2.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDLDF8_Lab{background: url("img/mapcss/IDLDF8_Lab.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF8_Mission02{background: url("img/mapcss/IDF8_Mission02.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF8_Mission03{background: url("img/mapcss/IDF8_Mission03.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.idtm_arena_3vs3{background: url("img/mapcss/idtm_arena_3vs3.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.idtm_lobby_3vs3{background: url("img/mapcss/idtm_lobby_3vs3.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDLDF8_Lab_H{background: url("img/mapcss/IDLDF8_Lab_H.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.LDF8{background: url("img/mapcss/LDF8.gif") no-repeat; width:300px;height:25px;margin:0px 0 0 5px; }
+.area_name span.LDF5A{background: url("img/mapcss/LDF5A.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.LDF5_FORTRESS{background: url("img/mapcss/LDF5_FORTRESS.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF8_House{background: url("img/mapcss/IDF8_House.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+.area_name span.IDF8_Mission04{background: url("img/mapcss/IDF8_Mission04.gif") no-repeat; width:195px;height:25px;margin:0px 0 0 5px; }
+
+
+#hiddenlayer{position:absolute;left:0;top:0;display:none;width:100%;height:100%;z-index:991;background-color:#333;opacity:.6;filter:alpha(opacity=60);-ms-filter:'alpha(opacity=60)';}
+#map_popup{position:absolute;left:0;top:2;width:600px;height:600px; display:none;}
+#map_popup .detail .close{display:block; position:absolute; top:11px; right:12px; width:22px; height:22px; background:url("img/mapcss/aionmap_zoom.gif") no-repeat right -30px; cursor:pointer;}
+#map_popup .detail .toolbar {margin-right:30px;}
+#map_popup .detail .close span{display:none;}
+.aionmap .canvas_none {z-index:10000; position:absolute;left:7px;}
+.gamemap1 .canvas_none {background:url("img/mapcss/none1.gif") no-repeat;width:600px;height:600px; top:42px;}
+.gamemap2 .canvas_none {background:url("img/mapcss/none2.gif") no-repeat;width:305px;height:305px; left:38px;}
+.gamemap2  .help_gather  {display:none !important;}
+.aionmap .help_gather {position:absolute; bottom:15px; left:15px; z-index:999;}
+/* caption */
+.aionmap_caption {overflow:auto;width:590px;margin:0;padding:2px 0 8px 10px;background-color:#4a3c31;}
+.aionmap_caption ul {margin:0; padding:0; list-style:none;}
+.aionmap_caption ul li {clear:none;float:left; width:170px;margin:0; padding:0;font-size:11px;letter-spacing:-1px;background-repeat:no-repeat; background-position:0 0;}
+.aionmap_caption ul li input {float:left; margin:3px 5px 0 5px;}
+*+html body .aionmap_caption ul li input {margin-top:-2px;}
+.aionmap_caption ul li label {display:block;padding:2px 0 0 15px; }
+.aionmap_caption ul li.m1 {color:#fe0000; background-image:url('img/mapcss/ic_m1.gif');}
+.aionmap_caption ul li.m2 {color:#FFF; background-image:url('img/mapcss/ic_m2.gif');}
+.aionmap_caption ul li.m3 {color:#24af6b; background-image:url('img/mapcss/ic_m3.gif');}
+.aionmap_caption ul li.m4 {color:#9dd300; background-image:url('img/mapcss/ic_m4.gif');}
+.aionmap_caption ul li.m5 {color:#00aeef; background-image:url('img/mapcss/ic_m5.gif');}
+.aionmap_caption ul li.m6 {color:#6477b7; background-image:url('img/mapcss/ic_m6.gif');}
+.aionmap_caption ul li.m7 {color:#f9567c; background-image:url('img/mapcss/ic_m7.gif');}
+.aionmap_caption ul li.m8 {color:#f9a004; background-image:url('img/mapcss/ic_m8.gif');}
